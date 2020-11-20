@@ -1,11 +1,13 @@
   /* font-size: 100%; */
 body {
   /* font-size: 16; */
-  background-color: DarkCyan;
+  /* background-color: DarkCyan; */
   color: Gold;
   font-family: Big Shoulders Stencil Display, Californian FB, Arial;
   font-size: 14px;
   margin: 10px 20px 10px;
+  background-image: url(images/double-bubble-dark.png);
+  /* background-repeat: repeat;  */
 }
 * {
   font-size: 100%;
@@ -78,11 +80,21 @@ header {
   border-bottom: 5px solid grey;
 }
 img {
-  /* width: 400px; */
+  width: 400px;
   height: 300px;
 }
 .title {
   font-size: 48px;
   text-decoration: underline;
   color: pink;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.banner {
+  height: 350px;
+  background-image: url(images/pexels-engin-akyurt-2347380.jpg);
+  background-size: cover;
+  background-position: center;
 }
